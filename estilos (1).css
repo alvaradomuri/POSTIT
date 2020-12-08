@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gaegu', cursive;
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    background: radial-gradient(circle, #5b15ca, #05da65);
+    text-align: center;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 80px;
+    box-shadow: 1px 1px 30px 1px rgba(0,0,0,.3);
+    z-index: 1;
+}
+.izq{
+    width: 350px;
+    height: calc(100% - 80px);
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    background: rgb(22, 37, 251);
+}
+    .crear-nota{
+        background: rgb(85, 94, 212);
+        height: 320px;
+        width: 320px;
+        position: fixed;
+        top: 80px;
+        left: -320px;
+        padding: 60px;
+        
+
+       
+    }
+    .crear-nota>input, .crear-nota>textarea{
+        width: 100%;
+        position: relative;
+        float: left;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        background: rgba(5, 7, 6, 0.6);
+
+        box-sizing: border-box;
+    }
+    .crear-nota{
+        height: 30px;
+        font-size: 25px;
+        font-weight: 700;
+        color: #000000;
+        margin-left: 20%;
+    }
+.der{
+    height: calc(100% - 80px);
+    position: fixed;
+    width: calc(100% - 350px);
+    right: 0px;
+    bottom: 0px;
+    background-color: #0a0601;
+    z-index: 9;
+}
+.deri{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    float: left;
+    background-image:url(https://previews.123rf.com/images/bobrovee/bobrovee1609/bobrovee160900080/62794555-tama%C3%B1o-a4-hoja-amarilla-vertical-de-papel-viejo-con-la-rejilla-de-un-cent%C3%ADmetro.jpg);
+    background-size: cover;
+    filter: opacity(60%);
+}    
+.button{
+    color: rgb(138, 80, 5);
+}
+    .trabajo{ background-color: green; box-shadow: 1px 1px 1px crimson}
+    .escuela{ background-color:yellowgreen; box-shadow: 1px 1px 1px darkkhaki}
+    .personal{ background-color:cornflowerblue; box-shadow: 1px 1px 1px gold}
+    .nota{
+        width: 160px;
+        height: 160px;
+        position: relative;
+        float: left;
+        margin-left: 15px;
+        margin-top: 15px;
+        box-sizing: border-box;
+        font-size: 18px;
+    }
